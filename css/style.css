@@ -1,0 +1,54 @@
+.col-lg-6 .jumbotron-fluid {
+    color: white;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-lg-6 .jumbotron-fluid h1{
+    font-weight:600;
+}
+
+#app-list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#app-row {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#frontface {
+    background: #000A66;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile {
+    width : 50%;
+    padding: 80px;
+}
+
+#how {
+    text-align: center;
+    color:#8A95A3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rowhow .details {
+    padding: 60px 100px 90px 100px;
+}
+
+.rowhow {
+    margin-bottom: 80px;
+}
+
+

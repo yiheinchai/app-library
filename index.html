@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App Library</title>
+        <link rel= "stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img width="30" height="30" src="https://static.thenounproject.com/png/3040233-200.png">
+                    App Library
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsable-nav">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="app-db.html">Discover Apps</a>
+                        <a class="nav-link" href="#">Manage Workflow</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="main-content container-fluid">
+            <div class="row" id="frontface">
+                <div class="col-lg-6" >
+                    <img width="100%" height ="100%" src="https://d35fo82fjcw0y8.cloudfront.net/2019/05/22092549/types-of-mobile-apps-blog_header.png">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="jumbotron-fluid">
+                        <h1 class="display-3">App Library</h1>
+                        <p class="lead">Hypercharge your workflow with the right apps.</p>
+                        <a class="btn btn-primary btn-lg" href="app-db.html" role="button" style="border-radius: 30px;">Find Apps Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row profile">
+                <p class=display-6>Fill in the details to find apps</p>
+                <div>Name:<input id="name" type="text"></div>
+                <div>Industry:<input id="industry" type="text"></div>
+                <button class="btn btn-primary btn-lg" onclick="showApps();">Show result</button>
+
+                <div id="content"></div>
+            </div>
+        <!--
+            <div>
+                <h1 id="title">Lecture 53</h1>
+  
+                <p>
+                  Say hello to 
+                  <input id="name" type="text">
+                  <button onclick="sayHello();">
+                    Say it!
+                  </button>
+                </p>
+            
+                
+                <div id="content"></div>
+            </div>
+        -->
+            <div class="row">
+                <h1 id="how" class="display-6">How it works</h1>
+            </div>
+            <div class="row rowhow">
+                <div class="col-lg-6 details">
+                    <h2>1. Fill in workflow details</h2>
+                    <p>Answer a few questions and we will automatically generate a visualization of your workflow process.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img width="80%" height ="80%" style="border-radius: 300px;" src="https://assets.justinmind.com/wp-content/webp-express/webp-images/uploads/2020/04/animation-apps-mobile-desktop.png.webp">
+                </div>
+            </div>
+            <div class="row rowhow">
+                <div class="col-lg-6 details">
+                    <h2>2. Find matching apps</h2>
+                    <p>Our AI-powered workflow analyzer will pick the best apps to help your optimize your workflow and increase efficiency.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img width="80%" height ="80%" style="border-radius: 300px;" src="https://cdn.dribbble.com/users/1325525/screenshots/12209919/media/62a9fd5ccac9ea389ed8073f8e22cb13.png?compress=1&resize=800x600">
+                </div>
+            </div>
+            <div class="row rowhow">
+                <div class="col-lg-6 details">
+                    <h2>3. Pick your preferred app</h2>
+                    <p>Among our curated list of recommended apps, compare them with alternative solutions, and make your decision.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img width="80%" height ="80%" style="border-radius: 300px;" src="https://img.freepik.com/free-vector/multitasking-concept-illustration-character_23-2148403716.jpg?size=626&ext=jpg">
+                </div>
+            </div>
+        </div>
+  
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
